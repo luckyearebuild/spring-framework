@@ -3,6 +3,8 @@ plugins {
 }
 
 repositories {
+	mavenLocal()
+	maven { name "Alibaba" ; url "https://maven.aliyun.com/nexus/content/groups/public/" }
 	mavenCentral()
 	gradlePluginPortal()
 }
